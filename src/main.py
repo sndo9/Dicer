@@ -96,6 +96,7 @@ if instruction == "--all" or instruction == "-a":
     stat_sum = 0
     for stat in stats:
         stat_sum += stat
+    print(rolls)
     print(str(math.floor((stats[result] / stat_sum) * 100)) + "% chance")
 
 
